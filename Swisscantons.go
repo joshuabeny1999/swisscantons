@@ -65,8 +65,8 @@ func ByName(name string) Canton {
 		return Canton{NameDE: "Zug", NameOrig: "Zug", ShortCode: "ZG"}	
 	case "zurich", "zürich", "zuerich", "zh":
 		return Canton{NameDE: "Zürich", NameOrig: "Zürich", ShortCode: "ZH"}
-	case "lichtensten", "liechtenstein", "li":
-		return Canton{NameDE: "Liechtenstein", NameOrig: "Liechtenstein", ShortCode: "li"}
+	case "lichtenstein", "liechtenstein", "li":
+		return Canton{NameDE: "Liechtenstein", NameOrig: "Liechtenstein", ShortCode: "LI"}
 	default: 
 		return Canton{NameDE: "Unbekannt", NameOrig: "Unknown", ShortCode: "UNKNOWN"}
 	}
