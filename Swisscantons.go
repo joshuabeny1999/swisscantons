@@ -43,7 +43,7 @@ func ByName(name string) Canton {
 		return Canton{NameDE: "Nidwalden", NameOrig: "Nidwalden", ShortCode: "NW"}	
 	case "obwalden", "obwald", "ow":
 		return Canton{NameDE: "Obwalden", NameOrig: "Obwalden", ShortCode: "OW"}	
-	case "stgallen", "st.gallen", "sg":
+	case "stgallen", "st.gallen", "sankt gallen", "sg":
 		return Canton{NameDE: "St. Gallen", NameOrig: "St. Gallen", ShortCode: "SG"}	
 	case "schaffhausen", "sh":
 		return Canton{NameDE: "Schaffhausen", NameOrig: "Schaffhausen", ShortCode: "SH"}	
